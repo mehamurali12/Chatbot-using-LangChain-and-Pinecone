@@ -12,8 +12,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for using session
 
 # Set your API keys
-os.environ['OPENAI_API_KEY'] = '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'
-llama_api_key = 'llx-kHU4kVQEQRrkaj3AW8ltNr3pzdDs0ZSLjqUsTDlkjsp5Rzrc'
+os.environ['OPENAI_API_KEY'] = 'OPENAI_API_KEY'
+llama_api_key = 'LLAMA_API_KEY'
 
 # Initialize LlamaParse
 parser = LlamaParse(api_key=llama_api_key, result_type="markdown")
